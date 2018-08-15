@@ -13,7 +13,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 */
 .custom {
     /*background: url(bg.png) no-repeat;*/
-    width: 600px;
+    width: 570px;
     background: linear-gradient(to bottom right, #FF0046, #FD008B);
     /*background-size: contain;*/
     transition: opacity 1s;
@@ -117,8 +117,8 @@ opacity: 0;
 }
 .custom .options li .procent {
     position: absolute;
-    top: 42px;
-    right: 15px;
+    top: 46px;
+    right: 0;
 }
 .custom .options li .number {
     padding: 5px 10px;
@@ -142,6 +142,7 @@ opacity: 0;
 }
 .custom .options li .text {
     line-height: 1.3;
+    font-size:18px;
 }
 
 .custom .credits {
